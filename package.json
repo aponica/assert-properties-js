@@ -1,0 +1,34 @@
+{
+  "name": "@aponica/assert-properties-js",
+  "version": "2.0.0",
+  "description": "Asserts that an object contains certain properties",
+  "homepage" : "https://aponica.com/docs/assert-properties-js",
+  "funding": "https://www.paypal.com/biz/fund?id=BEHTAS8WARM68",
+  "keywords": [
+    "assert",
+    "assertion",
+    "assertions",
+    "dictionary",
+    "hash",
+    "instance",
+    "properties",
+    "object",
+    "validation"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "doc": "node ./node_modules/.bin/jsdoc -c jsdoc.conf.json",
+    "test": "node ./node_modules/.bin/jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aponica/assert-properties-js.git"
+  },
+  "author": "Opplaud LLC <dev.support@aponica.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@aponica/jsdoc-plugin-linecomments": "^1.1.1",
+    "jest": "^26.4.2",
+    "jsdoc": "^3.6.6"
+  }}
