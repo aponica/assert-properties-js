@@ -1,6 +1,6 @@
 # @aponica/assert-properties-js
 
-Assert that an object contains certain properties.
+Assert that a hash (dictionary object) contains certain properties.
 
 This is a convenient way to assert, for example, that certain parameters
 or options have been provided. By default, all specified properties must
@@ -22,8 +22,8 @@ npm i @aponica/assert-properties-js
 
 ### Example 1: Assert All Properties ("and")
 
-Assert the object passed in as the first argument includes all of
-the property names specified by the second argument:
+Assert the hash (dictionary object) passed in as the first argument 
+includes all of the property names specified by the second argument:
 
 ```javascript
 const fAssertProperties = require( '@aponica/assert-properties-js' );
@@ -38,7 +38,7 @@ catch ( iErr ) {
 
 ### Example 2: Assert One Property ("or")
 
-Assert the object passed in as the first argument includes only one of the
+Assert the hash passed in as the first argument includes only one of the
 property names specified by the second argument:
 
 ```javascript
@@ -54,7 +54,7 @@ catch ( iErr ) {
 
 ### Example 3: Assert Two Properties ("or") with Options
 
-Assert the object passed in as the first argument includes any two of the
+Assert the hash passed in as the first argument includes any two of the
 property names specified by the second argument, using JavaScript's "in"
 operator for comparison, and using a custom label in the error message.
 This example will throw an exception with the message
@@ -74,8 +74,8 @@ catch ( iErr ) {
 
 ### Example 4: Deep Assertions
 
-Assert that the object "foo" includes a property named "bar", and that "bar"
-is itself an object containing only one of the properties "baz" or "qux":
+Assert that the hash "foo" includes a property named "bar", and that "bar"
+is itself a hash containing only one of the properties "baz" or "qux":
 
 ```javascript
 const fAssertProperties = require( '@aponica/assert-properties-js' );
