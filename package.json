@@ -1,6 +1,6 @@
 {
   "name": "@aponica/assert-properties-js",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "Asserts that an object contains certain properties",
   "homepage" : "https://aponica.com/docs/assert-properties-js",
   "funding": "https://www.paypal.com/biz/fund?id=BEHTAS8WARM68",
